@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body);
+}
+
+:root {
+    --cor-background: #f3f3f3;
+    --body: #ffffffce;
+    --cor-borda-textarea: #dadada;
+}
+
+#app__principal {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    font-size: 50px;
+}
+
+#app__container_texto {
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 7px;
+    background-color: var(--cor-background);
+}
+
+#app__contagem {
+    width: 700px;
+    display: flex;
+    margin: 10px 0 10px 0;
+    justify-content: center;
+}
+
+#app__contagem i {
+    margin: 0 5px 0 5px;
+}
+
+.app__container_digitacao {
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: var(--cor-background);
+}
+
+.campoDigitacao {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 20px;
+    border: solid 1px var(--cor-borda-textarea);
+}
+
+.campoDigitacao:focus {
+    border: solid 2px var(--cor-borda-textarea);
+    outline: none;
+}
+
+.campo-desativado
+{
+    background-color: lightgray;
+}
+
+.botoes
+{
+    margin: 5px auto;
+    width: 700px;
+}
+
+.borda-verde
+{
+    border: 2px solid green;
+}
+
+.borda-vermelha
+{
+    border: 2px solid red;
+}
+
+.app__placar
+{
+    width: 700px;
+    margin: 0 auto;
+}
